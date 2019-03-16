@@ -1,3 +1,3 @@
 make all
-make check test-xxhsum-c namespaceTest c90test
+make check test-xxhsum-c namespaceTest
 make install
