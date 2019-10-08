@@ -1,6 +1,6 @@
 {% set name = "xxHash" %}
-{% set version = "0.7.1" %}
-{% set sha256 = "afa29766cfc0448ff4a1fd9f2c47e02c48d50be5b79749925d15d545008c3f81" %}
+{% set version = "0.7.2" %}
+{% set sha256 = "7e93d28e81c3e95ff07674a400001d0cdf23b7842d49b211e5582d00d8e3ac3e" %}
 
 package:
   name: {{ name|lower }}
