@@ -1,6 +1,6 @@
 {% set name = "xxHash" %}
-{% set version = "0.7.2" %}
-{% set sha256 = "7e93d28e81c3e95ff07674a400001d0cdf23b7842d49b211e5582d00d8e3ac3e" %}
+{% set version = "0.7.4" %}
+{% set sha256 = "4d9706c9da4fbdf901598f5e3b71db0eddd4ac962e827a73ebf75d66dfd820fe" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-   number: 0
-   skip: true  # [win]
+  number: 0
+  skip: true  # [win]
 
 requirements:
   build:
@@ -27,7 +27,7 @@ test:
 about:
   home: http://www.xxhash.com/
   license: BSD
-  license_file: '{{ environ["SRC_DIR"] }}/LICENSE'
+  license_file: {{ environ["SRC_DIR"] }}/LICENSE
   summary: Extremely fast hash algorithm
   description: |
     xxHash is an Extremely fast Hash algorithm, running at RAM speed limits. It
