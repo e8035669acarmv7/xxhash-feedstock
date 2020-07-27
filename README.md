@@ -5,7 +5,7 @@ Home: http://www.xxhash.com/
 
 Package license: BSD
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Extremely fast hash algorithm
 
