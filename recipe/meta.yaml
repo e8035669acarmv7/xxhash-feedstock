@@ -12,13 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  skip: true  # [win]
+  number: 1
 
 requirements:
   build:
     - {{ compiler('c') }}
-    - make
+    - make  # [unix]
+    - cmake  # [win]
 
 test:
   commands:
@@ -26,7 +26,7 @@ test:
 
 about:
   home: http://www.xxhash.com/
-  license: BSD
+  license: BSD-2-Clause
   license_file: {{ environ["SRC_DIR"] }}/LICENSE
   summary: Extremely fast hash algorithm
   description: |
