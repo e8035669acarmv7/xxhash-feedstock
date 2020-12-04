@@ -3,11 +3,15 @@ About xxhash
 
 Home: http://www.xxhash.com/
 
-Package license: BSD
+Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xxhash-feedstock/blob/master/LICENSE.txt)
 
 Summary: Extremely fast hash algorithm
+
+Development: https://github.com/Cyan4973/xxHash
+
+Documentation: https://github.com/Cyan4973/xxHash
 
 xxHash is an Extremely fast Hash algorithm, running at RAM speed limits. It
 successfully completes the SMHasher test suite which evaluates collision,
@@ -65,6 +69,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2232&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xxhash-feedstock?branchName=master&jobName=osx&configuration=osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2232&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xxhash-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
