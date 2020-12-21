@@ -15,7 +15,6 @@ build:
     # The recent history has been quite unstable: https://abi-laboratory.pro/?view=timeline&l=xxhash
     - {{ pin_subpackage("xxhash", max_pin="x.x.x") }}
 
-
 requirements:
   build:
     - {{ compiler('c') }}
