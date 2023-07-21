@@ -1,11 +1,11 @@
-About xxhash
-============
+About xxhash-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xxhash-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.xxhash.com/
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xxhash-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extremely fast hash algorithm
 
