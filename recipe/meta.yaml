@@ -1,5 +1,5 @@
 {% set name = "xxHash" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,9 +7,7 @@ package:
 
 source:
   url: https://github.com/Cyan4973/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 3bb6b7d6f30c591dd65aaaff1c8b7a5b94d81687998ca9400082c739a690436c
-  patches:
-    - 636f966ecc713c84ddd3b7ccfde2bfb2cc7492a0.patch
+  sha256: baee0c6afd4f03165de7a4e67988d16f0f2b257b51d0e3cb91909302a26a79c4
 
 build:
   number: 0
